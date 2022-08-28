@@ -1,0 +1,55 @@
+div {
+    text-align: center;
+}
+
+.perfil {}
+
+.foto {
+    /*Clase de la foto de perfil*/
+    width: 300px;
+    margin-top: -300px;
+    border-radius: 10%;
+    box-shadow: 3px 3px 3px #561b77;
+
+}
+
+@media(min-width:768px) {
+    .perfil {
+        display: flex;
+    }
+
+    .foto {
+        margin-left: 1.5rem;
+    }
+
+    .datos {
+        text-align: left;
+        margin-left: 1.5rem !important;
+    }
+}
+
+.datos {
+    font-size: 30px;
+    margin: 10px auto 40px;
+    color: #202020;
+}
+
+.texto p {
+    /*COLOR DE TEXTO*/
+    color: #202020;
+    margin: 0 20px;
+    text-align: justify;
+    margin-top: 1rem;
+}
+
+
+h1,
+h3 {
+    /*COLOR DE LOS H*/
+
+    display: inline;
+    color: #a063d1;
+    text-shadow: 2px 0 2px #242627;
+    text-align: initial;
+    margin-left: 20px;
+}

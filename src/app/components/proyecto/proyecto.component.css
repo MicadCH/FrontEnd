@@ -1,0 +1,43 @@
+.row {
+    padding: 20px;
+
+    /*background-color: black;*/
+}
+
+.contenedor {
+    width: auto;
+}
+
+.contenedor2 {
+    width: auto;
+    
+}
+
+
+.parte1,
+.parte2,
+.parte3 {
+    display: inline-block;
+    text-align: justify;
+
+}
+
+.img-proyecto {
+    box-shadow: 10px 10px 10px rgb(147, 54, 184);
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 2.5rem;
+
+}
+
+p{
+    margin-top: 2rem
+}
+
+h2,
+h3 {
+   
+    display: inline;
+    color: #c193e7;
+    text-shadow: 2px 0 2px #242627;
+}
