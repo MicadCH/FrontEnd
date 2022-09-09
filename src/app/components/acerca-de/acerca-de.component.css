@@ -37,9 +37,8 @@ div {
 .texto p {
     /*COLOR DE TEXTO*/
     color: #202020;
-    margin: 0 20px;
     text-align: justify;
-    margin-top: 1rem;
+    margin: 1.5rem;
 }
 
 
