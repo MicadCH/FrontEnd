@@ -7,7 +7,7 @@
 #logoAP {
     width: 150px;
    
-    margin-left: 0.8rem;
+    margin-left: 1.5rem;
 }
 
 img {
@@ -30,6 +30,7 @@ img {
 .container{
     flex-direction: column;
 }
+
 .redes{
    margin-bottom: 0.5rem;
     flex-direction: initial;
