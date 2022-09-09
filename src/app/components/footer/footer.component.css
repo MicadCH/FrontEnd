@@ -12,39 +12,3 @@ span{
     color: #5c5575;
 }
 
-/*GO TOP*/
-
-.got-top-container{
-    position: fixed;
-    bottom: 4rem;
-    right: 4rem;
-    width: 6.6rem;
-    height: 6.6rem;
-    z-index: -1;
-}
-
-.go-top-buttom{
-    width: 0rem;
-    height: 0rem;
-    background: blue;
-    border-radius: 50%;
-    cursor: pointer;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-}
-
-.go-top-buttom i{
-position: absolute;
-font-size: 1.7rem;
-top: 48%;
-left: 50%;
-transform: translate(-50%, -50%) scale(0);
-color: aliceblue;
-transition: .2s;
-}
-
-.show{
-    z-index: 10;
-}
