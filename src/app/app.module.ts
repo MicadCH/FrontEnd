@@ -14,7 +14,7 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HysComponent } from './components/hys/hys.component';
 import { ProyectoComponent } from './components/proyecto/proyecto.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { GoTopComponent } from './components/go-top/go-top.component';
+
 
 @NgModule({
   declarations: [
@@ -28,8 +28,7 @@ import { GoTopComponent } from './components/go-top/go-top.component';
     HysComponent,
     ProyectoComponent,
     FooterComponent,
-    GoTopComponent
-  ],
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
