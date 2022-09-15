@@ -1,9 +1,11 @@
 .row{
     background-color: white;
     padding: 20px;
+    
 }
 
 .circulos{
+    
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(150px,1fr)); 
     grid-gap: 10px;

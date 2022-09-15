@@ -1,7 +1,9 @@
 .container {
+    
     display: flex;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+
 }
 
 #logoAP {
@@ -16,6 +18,7 @@ img {
 }
 
 #ingresar {
+    
     width: 80px;
     margin-right: 0.8rem;
 }
