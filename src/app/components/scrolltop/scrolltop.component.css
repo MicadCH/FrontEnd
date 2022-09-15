@@ -1,14 +1,28 @@
-.scroll-to-top{
-    position: fixed;
-    bottom: 15px;
-    right: 15px;
-    opacity: 0;
-    transition: all .2s ease-in-out;
+.btn {
+  background-color: rgb(158, 91, 189);
+  border-radius: 30%;
+  border: none;
+  --bs-btn-focus-shadow-rgb: none;
+ 
 }
 
-.show-scrollTop{
-    opacity: 1;
-    transition: all .2s ease-in-out;
-    color: rgb(161, 103, 214);
-    z-index: 1;
+.btn:hover{
+    --bs-btn-focus-shadow-rgb: none;
+    background-color: rgb(214, 103, 171);
+    transition: background-color .2s;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.show-scrollTop {
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+  z-index: 1;
+  border-radius: 50%;
 }
