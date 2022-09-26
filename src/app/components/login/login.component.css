@@ -8,13 +8,13 @@
 .card {
   margin-top: -20rem;
   background: hsla(311, 45%, 85%, 0.466);
-  backdrop-filter: blur(30px);
+  backdrop-filter: blur(15px);
   margin-bottom: 3rem;
-  width: auto;
 }
 
 /*---Botón de Iniciar Sesión */
 .btn {
+  box-shadow: 3px 3px 3px rgba(167, 143, 163, 0.795);
   background-color: rgb(158, 91, 189);
   border-radius: 6%;
   border: none;
