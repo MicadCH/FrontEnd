@@ -1,4 +1,6 @@
 .btn {
+  font-size: 2.3rem;
+  padding-top: inherit;
   background-color: rgb(158, 91, 189);
   border-radius: 30%;
   border: none;
@@ -14,7 +16,7 @@
 
 .scroll-to-top {
   position: fixed;
-  bottom: 20px;
+  bottom: 30px;
   right: 20px;
   opacity: 0;
   transition: all 0.2s ease-in-out;
