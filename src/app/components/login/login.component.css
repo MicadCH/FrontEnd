@@ -18,6 +18,7 @@
   border: none;
   --bs-btn-focus-shadow-rgb: none;
 }
+
 .btn:hover {
   --bs-btn-focus-shadow-rgb: none;
   background-color: rgb(214, 103, 171);
