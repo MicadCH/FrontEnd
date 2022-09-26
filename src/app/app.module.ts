@@ -15,6 +15,8 @@ import { HysComponent } from './components/hys/hys.component';
 import { ProyectoComponent } from './components/proyecto/proyecto.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ScrolltopComponent } from './components/scrolltop/scrolltop.component';
+import { HomeComponent } from './components/home/home.component';
+import { LoginComponent } from './components/login/login.component';
 
 
 @NgModule({
@@ -30,6 +32,8 @@ import { ScrolltopComponent } from './components/scrolltop/scrolltop.component';
     ProyectoComponent,
     FooterComponent,
     ScrolltopComponent,
+    HomeComponent,
+    LoginComponent,
    ],
   imports: [
     BrowserModule,

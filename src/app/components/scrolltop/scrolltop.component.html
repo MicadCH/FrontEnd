@@ -1,8 +1,5 @@
-<div class="scroll-to-top" [ngClass]="{'show-scrollTop' : windowScroller}">
-
-    <button class="btn btn-secondary" data-toglle="button" aria-pressed="true" (click)="scrollToTop()"><i class="fa fa-chevron-up" aria-hidden="true"></i>
+<div class="scroll-to-top" [ngClass]="{'show-scrollTop': windowScrolled}">
+    <button class="btn btn-secondary active" data-toggle="button" aria-pressed="true" (click)="scrollToTop()">
+        <i class="fa fa-chevron-up"></i>
     </button>
-
-
-
-</div>
+  </div>
