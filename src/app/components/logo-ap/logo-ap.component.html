@@ -11,9 +11,16 @@
                 <a href="https://www.facebook.com/XimkaArt/"><img src="../../../assets/facebook2.png" id=""></a>
                 
                
-                <button type="button"class="boton" (click)="login()">
-                    <img src="../../../assets/Ingresar2.png" id="ingresar">
-                </button>
+                <button type="button" 
+                class="btn btn-outline-light" 
+                style="
+                    margin-right: 1rem;
+                    border-color: #78308b;
+                    color: #78308b;
+                    --bs-btn-hover-bg: #3b2846;
+                    --bs-btn-active-bg: #3b2846;
+                    --bs-btn-focus-shadow-rgb: none" 
+                (click)="login()" *ngIf="!isLogged">Ingresar</button>
                 
                 
             </div>
