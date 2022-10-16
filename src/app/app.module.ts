@@ -42,8 +42,7 @@ import { interceptorProvider } from './service/interceptor-service';
     BrowserAnimationsModule,
     FormsModule,
     NgCircleProgressModule.forRoot({}),
-    HttpClientModule
-    
+    HttpClientModule    
   ],
   providers: [
     interceptorProvider
