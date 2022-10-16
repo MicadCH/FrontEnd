@@ -13,8 +13,6 @@ const routes: Routes = [
   { path: 'editexp/:id', component: EditExperienciaComponent},
 ];
 
-
-
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
