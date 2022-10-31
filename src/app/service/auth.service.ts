@@ -10,7 +10,7 @@ import { NuevoUsuario } from '../model/nuevo-usuario';
   providedIn: 'root',
 })
 export class AuthService {
-  authURL = 'https://backendmdc2.herokuapp.com/auth/';
+  authURL = 'https://mdcbackend.herokuapp.com/auth/';
 
   constructor(private httpClient: HttpClient) {}
 
